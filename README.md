@@ -83,18 +83,7 @@ youtube-live-transcriber/
     └── transcript_*.txt    # Generated transcript files
 ```
 
-## Requirements
 
-Create a `requirements.txt` file in your project root with these dependencies:
-
-```
-streamlink==5.5.1
-SpeechRecognition==3.10.0
-whisper==1.1.10
-PyAudio==0.2.13
-numpy>=1.20.0
-ffmpeg-python==0.2.0
-```
 
 ## Contributing
 
@@ -122,12 +111,3 @@ ffmpeg-python==0.2.0
    - Verify the YouTube URL is valid and the stream is live
    - Try increasing the chunk duration
 
-## License
-
-Distributed under the MIT License. See `LICENSE` file for more information.
-
-## Acknowledgments
-
-- [Streamlink](https://streamlink.github.io/)
-- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
-- [OpenAI Whisper](https://github.com/openai/whisper)
